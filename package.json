@@ -1,0 +1,21 @@
+{
+  "name": "jsdoc-plugins",
+  "version": "0.0.0",
+  "description": "A copy of [mathematicalcoffee's](https://github.com/mathematicalcoffee) jsdoc/plugins folder from the myPlugins branch.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/storjarn/jsdoc-plugins.git"
+  },
+  "keywords": [
+    "node.js", "jsdoc"
+  ],
+  "author": "Christopher Maples",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/storjarn/jsdoc-plugins/issues"
+  },
+  "dependencies": {
+  }
+}
