@@ -41,7 +41,7 @@ it's documented as if it were global.
 Tag `@autonamespace [namespacename]` acts like `@namespace; @name [namespacename]`
 and overrides the default automatic namespace name (the file name).
 
-See [autoNamespace.md](./autoNamespace.md).
+See [autoNamespace.md](../../../blob/master/plugins/autoNamespace.md).
 
 ## inheritDoc
 Provides tag `@inheritparams [other symbol]` which recycles the parameter and `@returns`
@@ -57,7 +57,7 @@ specification of the other symbol; use it when documenting a method that
 shadows a superclass one and `[other symbol]` will be automatically guessed
 (as `ParentClass#method`) for you.
 
-See [inheritDoc.md](./inheritDoc.md).
+See [inheritDoc.md](../../../blob/master/plugins/inheritDoc.md).
 
 ## pragmaTag
 Use tag `@+` with a number of additional tags, and each of these will be added
@@ -67,13 +67,13 @@ For example, `/**@+; @const */` (newline at the ';')
 will cause `@const` to be added to each subsequent doclet until a `/** @- */`
 is found.
 
-See [pragmaTag.md](./pragmaTag.md).
+See [pragmaTag.md](../../../blob/master/plugins/pragmaTag.md).
 
 ## prettyPrintCode
 This automatically pretty-prints any code blocks as specified using Markdown syntax.
 Both the indented code block and fenced code block (surrounded by three backticks) will be pretty-printed.
 
-See [prettyPrintCode.md](./prettyPrintCode.md).
+See [prettyPrintCode.md](../../../blob/master/plugins/prettyPrintCode.md).
 
 ## registerLink
 Use tag '@registerLink symbol URL' so that whenever `symbol` is used
@@ -83,7 +83,7 @@ Useful if you have a type that's not part of your project and documented on some
 other website, and you use (say) `@param {symbol} ...` often and want it to
 resolve to the other website.
 
-See [registerLink.md](./registerLink.md).
+See [registerLink.md](../../../blob/master/plugins/registerLink.md).
 
 ## relativeLink
 Basic support for relative links; `{@link #foo}`, `{@link ~foo}` and
@@ -93,7 +93,7 @@ of the current doclet.
 For example `{@link #foo}` from within a class doclet or doclet belonging to
 a class will link to `{@link MyClass#foo}`.
 
-See [relativeLink.md](./relativeLinks.md).
+See [relativeLink.md](../../../blob/master/plugins/relativeLinks.md).
 
 Repository structure
 -----
